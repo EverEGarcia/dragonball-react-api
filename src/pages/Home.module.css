@@ -1,0 +1,32 @@
+.container {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .searchForm {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .searchInput {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .searchButton {
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .searchButton:hover {
+    background-color: #C70039; /* Color al pasar el mouse */
+  }
+  

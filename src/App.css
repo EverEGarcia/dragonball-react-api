@@ -1,0 +1,43 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e3f2fd; /* Color de fondo suave */
+  color: #333; /* Color de texto */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: #1e88e5; /* Azul de Dragon Ball */
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  border-bottom: 2px solid #0d47a1;
+}
+
+.character-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  background-color: white;
+  transition: box-shadow 0.3s;
+}
+
+.character-card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.favorite {
+  color: #ff4081; /* Color para favorito */
+  cursor: pointer;
+}
+
+.favorite:hover {
+  transform: scale(1.2);
+}

@@ -1,0 +1,31 @@
+.navbar {
+    background-color: #FFCC00; /* Color de fondo */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #000;
+  }
+  
+  .links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    transition: color 0.3s;
+  }
+  
+  .links a:hover {
+    color: #FF5733; /* Color al pasar el mouse */
+  }
+  
