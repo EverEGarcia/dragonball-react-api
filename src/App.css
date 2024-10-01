@@ -1,19 +1,26 @@
+html, body {
+  height: 100%;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #e3f2fd; /* Color de fondo suave */
-  color: #333; /* Color de texto */
+  background-color: #e3f2fd; /* Soft background color */
+  color: #333; /* Text color */
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  flex: 1; /* Take up remaining space */
 }
 
 .header {
-  background-color: #1e88e5; /* Azul de Dragon Ball */
+  background-color: #1e88e5; /* Dragon Ball Blue */
   padding: 10px 20px;
   color: white;
   text-align: center;
@@ -34,10 +41,15 @@ body {
 }
 
 .favorite {
-  color: #ff4081; /* Color para favorito */
+  color: #ff4081; /* Favorite color */
   cursor: pointer;
 }
 
 .favorite:hover {
   transform: scale(1.2);
+}
+
+/* Ensure footer is always at the bottom */
+footer {
+  margin-top: auto; /* Pushes footer to the bottom */
 }

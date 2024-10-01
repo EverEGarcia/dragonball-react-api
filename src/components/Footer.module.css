@@ -3,28 +3,28 @@
     color: white;
     padding: 20px;
     text-align: center;
-  }
-  
-  .container {
+}
+
+.container {
     max-width: 800px;
     margin: 0 auto;
-  }
-  
-  .socialLinks {
+}
+
+.socialLinks {
     margin: 10px 0;
-  }
-  
-  .socialLinks a {
+}
+
+.socialLinks a {
     margin: 0 10px;
     color: #61dafb;
     text-decoration: none;
-  }
-  
-  .socialLinks a:hover {
+}
+
+.socialLinks a:hover {
     text-decoration: underline;
-  }
-  
-  .backToTop {
+}
+
+.backToTop {
     background-color: #61dafb;
     color: #282c34;
     border: none;
@@ -33,9 +33,8 @@
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s;
-  }
-  
-  .backToTop:hover {
+}
+
+.backToTop:hover {
     background-color: #21a1f1;
-  }
-  
+}
